@@ -12,10 +12,33 @@ body{
 	height: 100%;
 }
 
-/*#topNav{
+h1{
+    font-weight: 900;
+    font-size: 4.5vw;
+    color: #fff;
+}
+
+h2 a{
+    font-weight: 700;
+    font-size: 3vw;
+    color: #2D3142;
+}
+
+h2 a:hover{
+    font-weight: 700;
+    font-size: 3vw;
+    color: #FFF;
+}
+
+#topNav{
+  display: block;
 	background-color: transparent !important;
+  color: #FFFFFF !important;
 	margin-top: 1%;
-  }*/
+  width: 100%;
+  
+  }
+
 /*
 #collapsibleNavbar{
 	padding-left: 60%;
@@ -23,9 +46,9 @@ body{
   }*/
 
   #greeting{
-   margin: 5% 10% 5% 10%;
+   display: block;
  }
-/*.nav-link{
+.nav-link{
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	width: 100%;
@@ -34,7 +57,25 @@ body{
 
 #topNav a:hover{
 	border-bottom: 1px solid white;
-  }*/
+  }
+
+#topNav .active{
+border: 1px solid white;
+  background-color: transparent !important;
+}
+
+/*.collapsed-position{
+  float: left !important;
+  
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}*/
+
+.expanded-position{
+  float: right !important;
+  padding-left: 60%;
+  padding-right: 5%;
+}
 
 /*
 .nav-item{
