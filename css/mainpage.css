@@ -1,0 +1,156 @@
+html{
+	background-image: url("../images/mainbgfull.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 100%;
+	width: 100%;
+	scroll-behavior: smooth;
+
+}
+body{
+	background-color: transparent !important;
+	height: 100%;
+}
+
+/*#topNav{
+	background-color: transparent !important;
+	margin-top: 1%;
+  }*/
+/*
+#collapsibleNavbar{
+	padding-left: 60%;
+	padding-right: 20%;
+  }*/
+
+  #greeting{
+   margin: 5% 10% 5% 10%;
+ }
+/*.nav-link{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	width: 100%;
+	color:#fff !important;
+}
+
+#topNav a:hover{
+	border-bottom: 1px solid white;
+  }*/
+
+/*
+.nav-item{
+	width: 100%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+
+#mainSection{
+	color:#fff !important;
+	margin-top: 30%;
+  }*/
+
+
+  /****ANIMATIONS*****/
+
+  .ml7 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5vw;
+    color: #fff;
+
+  }
+  .ml7 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  .ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1vw;
+  }
+
+  h1.ml8 {
+    font-weight: 900;
+    font-size: 4.5vw;
+    color: #fff;
+  }
+
+  .ml8 .letters-container {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 1vw;
+  }
+
+  .ml8 .letters {
+    z-index: 2;
+    display: inline-block;
+    line-height: 0.7vw;
+    right: -0.12vw;
+    top: -0.2vw;
+  }
+
+  .ml8 .bang {
+    font-size: 6vw;
+    top: auto;
+    left: -0.06vw;
+  }
+
+  .ml10 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3vw;
+  }
+
+  .ml10 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
+
+
+  #myDesc {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 2s
+  }
+  @-webkit-keyframes animatebottom {
+    from { bottom:-50px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  @keyframes animatebottom { 
+    from{ bottom:-50px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+}
+
+@-webkit-keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
