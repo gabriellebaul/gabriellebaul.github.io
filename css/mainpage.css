@@ -1,10 +1,13 @@
+/* 8B839D */
+
 html{
-	background-image: url("../images/mainbgfull.jpg");
+	background-image: url("../images/mainbgfull.png");
 	background-repeat:no-repeat;
 	background-size:cover;
 	height: 100%;
 	width: 100%;
 	scroll-behavior: smooth;
+  background-color: #8B839D;
 
 }
 body{
@@ -193,5 +196,52 @@ border: 1px solid white;
   }
 }
 
+#worksTable img{
+  width:100%;
+}
 
 
+.carousel-item{
+height: 300px;
+overflow: hidden;
+width: 100%;
+}
+
+.carousel-item img {
+    width: 100%
+  }
+
+#projectsCarousel{
+  padding:10%;
+}
+
+#catchthekwave{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerblur{
+  background-color: #8B839D;
+  border:0;
+  width:100%;
+  background: #8B839D;
+  box-shadow: 0 0 15px 10px #8B839D;
+}
+
+#catchthekwaveimg{
+  height:50% !important;
+  width:30% !important;
+  margin:auto;
+}
+
+#contactcontainer{
+  display: inline-block;
+  width:50%;
+}
+
+
+#worksTable td{
+height: 300px;
+overflow: hidden;
+}
