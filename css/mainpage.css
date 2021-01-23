@@ -16,31 +16,31 @@ body{
 }
 
 h1{
-    font-weight: 900;
-    font-size: 4.5vw;
-    color: #fff;
+  font-weight: 900;
+  font-size: 4.5vw;
+  color: #fff;
 }
 
 h2 a{
-    font-weight: 700;
-    font-size: 3vw;
-    color: #2D3142;
+  font-weight: 700;
+  font-size: 3vw;
+  color: #2D3142;
 }
 
 h2 a:hover{
-    font-weight: 700;
-    font-size: 3vw;
-    color: #FFF;
+  font-weight: 700;
+  font-size: 3vw;
+  color: #FFF;
 }
 
 #topNav{
   display: block;
-	background-color: transparent !important;
+  background-color: transparent !important;
   color: #FFFFFF !important;
-	margin-top: 1%;
+  margin-top: 1%;
   width: 100%;
   
-  }
+}
 
 /*
 #collapsibleNavbar{
@@ -51,19 +51,19 @@ h2 a:hover{
   #greeting{
    display: block;
  }
-.nav-link{
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	width: 100%;
-	color:#fff !important;
-}
+ .nav-link{
+   font-family: 'Montserrat', sans-serif;
+   text-transform: uppercase;
+   width: 100%;
+   color:#fff !important;
+ }
 
-#topNav a:hover{
-	border-bottom: 1px solid white;
-  }
+ #topNav a:hover{
+   border-bottom: 1px solid white;
+ }
 
-#topNav .active{
-border: 1px solid white;
+ #topNav .active{
+  border: 1px solid white;
   background-color: transparent !important;
 }
 
@@ -72,13 +72,13 @@ border: 1px solid white;
   
   padding-left: 0 !important;
   padding-right: 0 !important;
-}*/
+  }*/
 
-.expanded-position{
-  float: right !important;
-  padding-left: 60%;
-  padding-right: 5%;
-}
+  .expanded-position{
+    float: right !important;
+    padding-left: 60%;
+    padding-right: 5%;
+  }
 
 /*
 .nav-item{
@@ -202,14 +202,14 @@ border: 1px solid white;
 
 
 .carousel-item{
-height: 300px;
-overflow: hidden;
-width: 100%;
+  height: 300px;
+  overflow: hidden;
+  width: 100%;
 }
 
 .carousel-item img {
-    width: 100%
-  }
+  width: 100%
+}
 
 #projectsCarousel{
   padding:10%;
@@ -242,6 +242,6 @@ width: 100%;
 
 
 #worksTable td{
-height: 300px;
-overflow: hidden;
+  height: 300px;
+  overflow: hidden;
 }
